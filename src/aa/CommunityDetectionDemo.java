@@ -1,4 +1,4 @@
-package paul.graph.demos;
+package aa;
 
 import paul.graph.community.Community;
 import paul.graph.community.CommunityList;

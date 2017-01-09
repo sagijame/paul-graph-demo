@@ -2,7 +2,7 @@
  * Copyright (c) 2004-2006 Regents of the University of California.
  * See "license-prefuse.txt" for licensing terms.
  */
-package prepuse.demos;
+package aa;
 
 import java.awt.Cursor;
 import java.awt.event.MouseEvent;
