@@ -10,6 +10,8 @@ public class CommunityDetectionDemo {
 	
 	public static void main(String[] args) {
 		
+		
+		
 		System.out.println("Community Detection Demo");
 		System.out.println();
 		
