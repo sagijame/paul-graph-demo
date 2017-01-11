@@ -3,7 +3,7 @@ package paul.graph.demo.community;
 import paul.graph.community.Community;
 import paul.graph.community.CommunityList;
 import paul.graph.community.finder.IC.originalcode._IC_CommunityFinder;
-import paul.graph.dataset.ExampleGraphReader;
+import paul.graph.dataset.ExampleNetworkReader;
 import prefuse.data.Graph;
 
 public class CommunityDetectionDemo {
@@ -15,7 +15,7 @@ public class CommunityDetectionDemo {
 		System.out.println("Community Detection Demo");
 		System.out.println();
 		
-		Graph g = ExampleGraphReader.getJazzNetwork();		
+		Graph g = ExampleNetworkReader.getJazzNetwork();		
 		System.out.println("Example network : Jazz (nodes:" + g.getNodeCount() + ", edges:" + g.getEdgeCount() + ")");
 		System.out.println("\tDetected : " + g.isDirected());
 		System.out.println("\tWeighted : " + g.isWeighted());
